@@ -1,0 +1,6 @@
+{
+  "name": "Campo de las Maravillas - Polé Chudes (Español & Hayeren)",
+  "description": "Իսպաներեն-հայերեն ուսուցողական «Հրաշքների դաշտ» (Поле Чудес) խաղ՝ 20 հարցերով և MARCADOR բառի գուշակմամբ:",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

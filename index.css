@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', 'Noto Sans Armenian', system-ui, -apple-system, sans-serif;
+    background-color: #0c1021;
+    color: #f8fafc;
+    overflow-x: hidden;
+  }
+}
+
+.font-game {
+  font-family: 'Cinzel', 'Noto Sans Armenian', serif;
+}
+
+.font-hy {
+  font-family: 'Noto Sans Armenian', 'Plus Jakarta Sans', sans-serif;
+}
+
+/* 3D perspective for game board tiles */
+.perspective-1000 {
+  perspective: 1000px;
+}
+
+.transform-style-preserve-3d {
+  transform-style: preserve-3d;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+}
+
+.rotate-y-180 {
+  transform: rotateY(180deg);
+}
+
+/* Glowing gold effects for Поле Чудес show vibe */
+.gold-glow {
+  box-shadow: 0 0 25px rgba(245, 158, 11, 0.45), inset 0 0 15px rgba(251, 191, 36, 0.3);
+}
+
+.neon-blue-glow {
+  box-shadow: 0 0 25px rgba(56, 189, 248, 0.4);
+}
+
+@keyframes pulse-subtle {
+  0%, 100% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.03); opacity: 0.95; }
+}
+
+.animate-pulse-subtle {
+  animation: pulse-subtle 2.5s ease-in-out infinite;
+}
